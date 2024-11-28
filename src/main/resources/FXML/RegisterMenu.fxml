@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.RegisterControllerView">
+    <VBox alignment="CENTER" layoutX="193.0" layoutY="43.0" prefHeight="315.0" prefWidth="215.0" spacing="10.0">
+        <Label alignment="CENTER" prefHeight="28.0" prefWidth="214.0" style="-fx-background-color: white;"
+               text="Atomic Bomber"/>
+        <TextField fx:id="userNameFiled" prefHeight="25.0" prefWidth="348.0" promptText="Enter your Username :"/>
+        <PasswordField fx:id="passwordField" prefHeight="25.0" prefWidth="148.0" promptText="Enter your password :"/>
+        <Button mnemonicParsing="false" onMouseClicked="#loginClicked" prefHeight="25.0" prefWidth="95.0" text="Login"/>
+        <Label alignment="CENTER" prefHeight="17.0" prefWidth="153.0" style="-fx-background-color: white;"
+               text="Dont have an account ?" textAlignment="CENTER"/>
+        <Button mnemonicParsing="false" onMouseClicked="#signInClicked" text="Sign up"/>
+        <Button mnemonicParsing="false" onMouseClicked="#guestClicked" prefHeight="25.0" prefWidth="53.0" text="Guest"/>
+    </VBox>
+</AnchorPane>

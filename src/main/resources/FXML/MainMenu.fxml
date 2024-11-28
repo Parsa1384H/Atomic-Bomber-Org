@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.MainMenuControllerView">
+   <children>
+      <VBox alignment="TOP_CENTER" layoutX="194.0" layoutY="88.0" prefHeight="298.0" prefWidth="213.0" spacing="15.0">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="New Game" onAction="#startGame"/>
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Load" />
+            <Button mnemonicParsing="false" onMouseClicked="#profileMenu" prefHeight="25.0" prefWidth="100.0" text="Profile Menu" />
+            <Button lineSpacing="15.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="100.0" text="Scores" onAction="#ScoresMenu"/>
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Settings" onAction="#SettingMenu"/>
+            <Button mnemonicParsing="false" onMouseClicked="#exit" prefHeight="25.0" prefWidth="100.0" text="Exit" />
+         </children></VBox>
+      <Label fx:id="welcomeText" alignment="CENTER" layoutX="176.0" layoutY="33.0" prefHeight="42.0" prefWidth="249.0" style="-fx-background-color: white;" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.GameLauncherControllerView">
+    <children>
+        <ProgressBar fx:id="hpBar" layoutX="650.0" layoutY="18.0" prefHeight="27.0" prefWidth="236.0" progress="0.0" />
+        <Label fx:id="waveNumber" alignment="CENTER" layoutX="305.0" layoutY="9.0" prefHeight="45.0" prefWidth="291.0" style="-fx-background-color: white;" />
+        <Label fx:id="kills" layoutX="21.0" layoutY="14.0" prefHeight="17.0" prefWidth="101.0" style="-fx-background-color: white;" text="Kills : " />
+        <Label fx:id="clusterCount" layoutX="21.0" layoutY="34.0" prefHeight="17.0" prefWidth="101.0" style="-fx-background-color: white;" text="Clusters : " />
+        <Label fx:id="atomicCount" layoutX="21.0" layoutY="56.0" prefHeight="17.0" prefWidth="101.0" style="-fx-background-color: white;" text="AtomicBombs : " />
+        <Label fx:id="accuracy" layoutX="21.0" layoutY="79.0" prefHeight="17.0" prefWidth="101.0" style="-fx-background-color: white;" text="Accuracy : " />
+      <ProgressBar fx:id="freezeBar" layoutX="650.0" layoutY="51.0" prefHeight="27.0" prefWidth="236.0" progress="0.0" />
+    </children>
+</AnchorPane>

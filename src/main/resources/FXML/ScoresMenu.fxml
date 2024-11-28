@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="400.0" prefWidth="600.0" stylesheets="@../CSS/ScoresMenuCss.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.ScoresMenuControllerView">
+
+    <center>
+        <VBox alignment="CENTER" spacing="10.0">
+            <Label id="label" text="Score Board" />
+            <HBox alignment="CENTER" spacing="10">
+                <Label id="label" text="username" />
+                <Label id="label" text="highscore" />
+                <Label id="label" text="kills" />
+            </HBox>
+            <HBox alignment="CENTER" spacing="50">
+                <Label id="label" text="1)" textFill="gold" />
+                <Label fx:id="username1" text="---" textFill="gold" />
+                <Label fx:id="score1" text="---" textFill="gold" />
+                <Label fx:id="kills1" text="---" textFill="gold" />
+            </HBox>
+            <HBox alignment="CENTER" spacing="50">
+                <Label id="label" text="2)" textFill="silver" />
+                <Label fx:id="username2" text="---" textFill="silver" />
+                <Label fx:id="score2" text="---" textFill="silver" />
+                <Label fx:id="kills2" text="---" textFill="silver" />
+            </HBox>
+            <HBox alignment="CENTER" spacing="50">
+                <Label id="label" text="3)" textFill="brown" />
+                <Label fx:id="username3" text="---" textFill="brown" />
+                <Label fx:id="score3" text="---" textFill="brown" />
+                <Label fx:id="kills3" text="---" textFill="brown" />
+            </HBox>
+            <HBox alignment="CENTER" spacing="50">
+                <Label id="label" text="4)" />
+                <Label fx:id="username4" text="---" />
+                <Label fx:id="score4" text="---" />
+                <Label fx:id="kills4" text="---" />
+            </HBox>
+            <HBox alignment="CENTER" spacing="50">
+                <Label id="label" text="5)" />
+                <Label fx:id="username5" text="---" />
+                <Label fx:id="score5" text="---" />
+                <Label fx:id="kills5" text="---" />
+            </HBox>
+            <HBox alignment="CENTER" spacing="50">
+                <Label id="label" text="6)" />
+                <Label fx:id="username6" text="---" />
+                <Label fx:id="score6" text="---" />
+                <Label fx:id="kills6" text="---" />
+            </HBox>
+            <HBox alignment="CENTER" spacing="50">
+                <Label id="label" text="7)" />
+                <Label fx:id="username7" text="---" />
+                <Label fx:id="score7" text="---" />
+                <Label fx:id="kills7" text="---" />
+            </HBox>
+            <HBox alignment="CENTER" spacing="50">
+                <Label id="label" text="8)" />
+                <Label fx:id="username8" text="---" />
+                <Label fx:id="score8" text="---" />
+                <Label fx:id="kills8" text="---" />
+            </HBox>
+            <HBox alignment="CENTER" spacing="50">
+                <Label id="label" text="9)" />
+                <Label fx:id="username9" text="---" />
+                <Label fx:id="score9" text="---" />
+                <Label fx:id="kills9" text="---" />
+            </HBox>
+            <HBox alignment="CENTER" spacing="50">
+                <Label id="label" text="10)" />
+                <Label fx:id="username10" text="---" />
+                <Label fx:id="score10" text="---" />
+                <Label fx:id="kills10" text="---" />
+            </HBox>
+         <Button mnemonicParsing="false" onMouseClicked="#back" text="Back" />
+        </VBox>
+    </center>
+</BorderPane>

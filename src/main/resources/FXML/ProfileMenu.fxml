@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.ProfileControllerView">
+    <children>
+        <VBox alignment="TOP_CENTER" layoutX="212.0" layoutY="71.0" prefHeight="258.0" prefWidth="177.0" spacing="15.0">
+            <children>
+                <Button alignment="CENTER" mnemonicParsing="false" onMouseClicked="#changeUsername" prefHeight="25.0" prefWidth="115.0" text="Change Username" />
+                <Button mnemonicParsing="false" onMouseClicked="#changePassword" prefHeight="25.0" prefWidth="115.0" text="Change Password" />
+                <Button mnemonicParsing="false" onMouseClicked="#enterAvatarMenu" prefHeight="25.0" prefWidth="115.0" text="Avatar Menu" />
+                <Button mnemonicParsing="false" onMouseClicked="#logOut" prefHeight="25.0" prefWidth="115.0" text="log Out" />
+                <Button mnemonicParsing="false" onMouseClicked="#deleteAccount" prefHeight="25.0" prefWidth="115.0" text="Delete Account" />
+            </children>
+        </VBox>
+        <ImageView fx:id="Image" fitHeight="122.0" fitWidth="146.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+        <Label fx:id="Username" alignment="CENTER" layoutX="30.0" layoutY="128.0" prefHeight="17.0" prefWidth="115.0 " style="-fx-background-color: white" text="" />
+        <Button layoutX="14.0" layoutY="361.0" mnemonicParsing="false" onMouseClicked="#back" text="Back" />
+    </children>
+</AnchorPane>
